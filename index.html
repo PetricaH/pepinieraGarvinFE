@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Pepiniera Garvin</title>
+</head>
+<body>
+    <header class="header" id="header-section">
+        <a href="#"><img src="public/images/logo-pepiniera-white.png" alt="Logo" id="logo"></a>
+        <div class="menu" onclick="toggleMenu(this)">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    
+        <div class="menu-links">
+            <a href="#hero-section" onclick="toggleActive(event)">Acasă</a>
+            <a href="#about-atz-section" onclick="toggleActive(event)">Produse</a>
+            <a href="#atz-specializari-section" onclick="toggleActive(event)">Blog</a>
+            <a href="#acreditari-atz-section" onclick="toggleActive(event)">Despre Noi</a>
+            <a href="#intrebari-frecvente-section" onclick="toggleActive(event)">Contact</a>
+        </div>
+    </header>
+
+    <section id="hero-section">
+        <div class="hero-container">
+                <div class="text-part-hero-section">
+                    <h1>Fă-ți zilele mai frumoase cu<br>cele mai frumoase plante</h1>
+                    <p>Transformă-ți viața lăsându-ne să-ți transformăm grădina!</p>
+                </div>
+                <div class="button-part-hero-section">
+                    <a href="#oferta-section"><button class="default-primary-btn">
+                        <span data-hover="Vezi Sortimentele">Vezi Sortimentele</span>
+                    </button></a>
+                    <a href="#"><button class="default-secondary-btn">
+                        <span>Achiziționează</span>
+                    </button></a>
+                </div>
+        </div>
+        <span class="page-id first-page"><span>1</span></span>
+    </section>
+
+    <main>
+            <div class="calitati-part">
+                <div class="calitate transport">
+                    <p>Livrare în 48 ore</p>
+                    <span class="material-symbols-outlined">
+                    local_shipping
+                    </span>
+                </div>
+                <div class="calitate plata">
+                    <p>Plata cu cardul<br>rapidă și sigură</p>
+                    <span class="material-symbols-outlined">
+                    credit_card
+                    </span>
+                </div>
+                <div class="calitate transport-gratuit">
+                    <p>Transport gratuit pentru<br>comenzi de peste 300 RON</p>
+                    <span class="material-symbols-outlined">
+                        loyalty
+                        </span>
+                </div>
+            </div>
+
+            <h1 id="produse-recomandate-h1">Produse Recomandate</h1>
+            <section id="recommended-products-section">
+                <div id="recommended-products">
+                    
+                </div>
+            </section>
+    </main>
+
+<script src="public/js/script.js"></script>
+</body>
+</html>
